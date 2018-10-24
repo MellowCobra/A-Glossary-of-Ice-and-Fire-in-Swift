@@ -5,9 +5,9 @@ Super simple iOS application consuming the free api by Joakim Skoog: [An Api of 
 ## Installation
 
 ```bash
-// Install pods
+# Install pods
 pod install
 
-// Open the project in Xcode
+# Open the project in Xcode
 open Ice\ and\ Fire\ Wiki.xcworkspace/
 ```
