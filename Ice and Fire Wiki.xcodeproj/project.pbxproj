@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0755950B213836B700B69C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755950A213836B700B69C78 /* AppDelegate.swift */; };
+		07559510213836B700B69C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0755950E213836B700B69C78 /* Main.storyboard */; };
+		07559515213836B800B69C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07559514213836B800B69C78 /* Assets.xcassets */; };
+		07559518213836B800B69C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07559516213836B800B69C78 /* LaunchScreen.storyboard */; };
+		07559523213836B800B69C78 /* Ice_and_Fire_WikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07559522213836B800B69C78 /* Ice_and_Fire_WikiTests.swift */; };
+		0755952E213836B800B69C78 /* Ice_and_Fire_WikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755952D213836B800B69C78 /* Ice_and_Fire_WikiUITests.swift */; };
+		0755953E21383CF700B69C78 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755953D21383CF700B69C78 /* MasterViewController.swift */; };
+		0755954021383D8F00B69C78 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755953F21383D8F00B69C78 /* Router.swift */; };
+		0755954221383FFA00B69C78 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0755954121383FFA00B69C78 /* config.plist */; };
+		075595442138428C00B69C78 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075595432138428C00B69C78 /* AppConfiguration.swift */; };
+		0755954B2138501200B69C78 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755954A2138501200B69C78 /* DataManager.swift */; };
+		0755954D213852BB00B69C78 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755954C213852BB00B69C78 /* House.swift */; };
+		0755955221385A3000B69C78 /* HouseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755955121385A3000B69C78 /* HouseCell.swift */; };
+		07559554213862F000B69C78 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07559553213862F000B69C78 /* DetailViewController.swift */; };
+		1B1E6B49F70ABAA651AFE3F6 /* Pods_Ice_and_Fire_Wiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6B9E7984CC27E27B3BF137 /* Pods_Ice_and_Fire_Wiki.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0755951F213836B800B69C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075594FF213836B600B69C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07559506213836B700B69C78;
+			remoteInfo = "Ice and Fire Wiki";
+		};
+		0755952A213836B800B69C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075594FF213836B600B69C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07559506213836B700B69C78;
+			remoteInfo = "Ice and Fire Wiki";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07559507213836B700B69C78 /* Ice and Fire Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice and Fire Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0755950A213836B700B69C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0755950F213836B700B69C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07559514213836B800B69C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07559517213836B800B69C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07559519213836B800B69C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0755951E213836B800B69C78 /* Ice and Fire WikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice and Fire WikiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07559522213836B800B69C78 /* Ice_and_Fire_WikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice_and_Fire_WikiTests.swift; sourceTree = "<group>"; };
+		07559524213836B800B69C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07559529213836B800B69C78 /* Ice and Fire WikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice and Fire WikiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0755952D213836B800B69C78 /* Ice_and_Fire_WikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice_and_Fire_WikiUITests.swift; sourceTree = "<group>"; };
+		0755952F213836B800B69C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0755953D21383CF700B69C78 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		0755953F21383D8F00B69C78 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0755954121383FFA00B69C78 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		075595432138428C00B69C78 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		0755954A2138501200B69C78 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0755954C213852BB00B69C78 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		0755955121385A3000B69C78 /* HouseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseCell.swift; sourceTree = "<group>"; };
+		07559553213862F000B69C78 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5C4067910C5C4FF0B7C3328F /* Pods-Ice and Fire Wiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ice and Fire Wiki.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ice and Fire Wiki/Pods-Ice and Fire Wiki.release.xcconfig"; sourceTree = "<group>"; };
+		AE778AE7807C67D9836781E8 /* Pods-Ice and Fire Wiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ice and Fire Wiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ice and Fire Wiki/Pods-Ice and Fire Wiki.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6B9E7984CC27E27B3BF137 /* Pods_Ice_and_Fire_Wiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ice_and_Fire_Wiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07559504213836B700B69C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E6B49F70ABAA651AFE3F6 /* Pods_Ice_and_Fire_Wiki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0755951B213836B800B69C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07559526213836B800B69C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075594FE213836B600B69C78 = {
+			isa = PBXGroup;
+			children = (
+				07559509213836B700B69C78 /* Ice and Fire Wiki */,
+				07559521213836B800B69C78 /* Ice and Fire WikiTests */,
+				0755952C213836B800B69C78 /* Ice and Fire WikiUITests */,
+				07559508213836B700B69C78 /* Products */,
+				45B14FDB418155006A9B8F7C /* Pods */,
+				5D29C7450D0B0CB3AEB691C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07559508213836B700B69C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07559507213836B700B69C78 /* Ice and Fire Wiki.app */,
+				0755951E213836B800B69C78 /* Ice and Fire WikiTests.xctest */,
+				07559529213836B800B69C78 /* Ice and Fire WikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07559509213836B700B69C78 /* Ice and Fire Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				07559519213836B800B69C78 /* Info.plist */,
+				0755950A213836B700B69C78 /* AppDelegate.swift */,
+				0755954621384F5800B69C78 /* Resources */,
+				0755954821384FC100B69C78 /* Interface */,
+				0755954721384F9D00B69C78 /* Models */,
+				0755954921384FD900B69C78 /* View Controllers */,
+			);
+			path = "Ice and Fire Wiki";
+			sourceTree = "<group>";
+		};
+		07559521213836B800B69C78 /* Ice and Fire WikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				07559522213836B800B69C78 /* Ice_and_Fire_WikiTests.swift */,
+				07559524213836B800B69C78 /* Info.plist */,
+			);
+			path = "Ice and Fire WikiTests";
+			sourceTree = "<group>";
+		};
+		0755952C213836B800B69C78 /* Ice and Fire WikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0755952D213836B800B69C78 /* Ice_and_Fire_WikiUITests.swift */,
+				0755952F213836B800B69C78 /* Info.plist */,
+			);
+			path = "Ice and Fire WikiUITests";
+			sourceTree = "<group>";
+		};
+		0755954521384F3100B69C78 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				075595432138428C00B69C78 /* AppConfiguration.swift */,
+				0755953F21383D8F00B69C78 /* Router.swift */,
+				0755954A2138501200B69C78 /* DataManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0755954621384F5800B69C78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07559514213836B800B69C78 /* Assets.xcassets */,
+				0755954121383FFA00B69C78 /* config.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0755954721384F9D00B69C78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0755954E213852BE00B69C78 /* Data */,
+				0755954521384F3100B69C78 /* Networking */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0755954821384FC100B69C78 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0755954F213859FE00B69C78 /* Cells */,
+				0755955021385A0200B69C78 /* Storyboards */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		0755954921384FD900B69C78 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0755953D21383CF700B69C78 /* MasterViewController.swift */,
+				07559553213862F000B69C78 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0755954E213852BE00B69C78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0755954C213852BB00B69C78 /* House.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0755954F213859FE00B69C78 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0755955121385A3000B69C78 /* HouseCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0755955021385A0200B69C78 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0755950E213836B700B69C78 /* Main.storyboard */,
+				07559516213836B800B69C78 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		45B14FDB418155006A9B8F7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE778AE7807C67D9836781E8 /* Pods-Ice and Fire Wiki.debug.xcconfig */,
+				5C4067910C5C4FF0B7C3328F /* Pods-Ice and Fire Wiki.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D29C7450D0B0CB3AEB691C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B9E7984CC27E27B3BF137 /* Pods_Ice_and_Fire_Wiki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07559506213836B700B69C78 /* Ice and Fire Wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07559532213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire Wiki" */;
+			buildPhases = (
+				D4C44E3EB258B4B7376A084E /* [CP] Check Pods Manifest.lock */,
+				07559503213836B700B69C78 /* Sources */,
+				07559504213836B700B69C78 /* Frameworks */,
+				07559505213836B700B69C78 /* Resources */,
+				6924EAD7FB41DB6F25B2D9E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ice and Fire Wiki";
+			productName = "Ice and Fire Wiki";
+			productReference = 07559507213836B700B69C78 /* Ice and Fire Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0755951D213836B800B69C78 /* Ice and Fire WikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07559535213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire WikiTests" */;
+			buildPhases = (
+				0755951A213836B800B69C78 /* Sources */,
+				0755951B213836B800B69C78 /* Frameworks */,
+				0755951C213836B800B69C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07559520213836B800B69C78 /* PBXTargetDependency */,
+			);
+			name = "Ice and Fire WikiTests";
+			productName = "Ice and Fire WikiTests";
+			productReference = 0755951E213836B800B69C78 /* Ice and Fire WikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07559528213836B800B69C78 /* Ice and Fire WikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07559538213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire WikiUITests" */;
+			buildPhases = (
+				07559525213836B800B69C78 /* Sources */,
+				07559526213836B800B69C78 /* Frameworks */,
+				07559527213836B800B69C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0755952B213836B800B69C78 /* PBXTargetDependency */,
+			);
+			name = "Ice and Fire WikiUITests";
+			productName = "Ice and Fire WikiUITests";
+			productReference = 07559529213836B800B69C78 /* Ice and Fire WikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075594FF213836B600B69C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mellow Cobra";
+				TargetAttributes = {
+					07559506213836B700B69C78 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0755951D213836B800B69C78 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07559506213836B700B69C78;
+					};
+					07559528213836B800B69C78 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07559506213836B700B69C78;
+					};
+				};
+			};
+			buildConfigurationList = 07559502213836B600B69C78 /* Build configuration list for PBXProject "Ice and Fire Wiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075594FE213836B600B69C78;
+			productRefGroup = 07559508213836B700B69C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07559506213836B700B69C78 /* Ice and Fire Wiki */,
+				0755951D213836B800B69C78 /* Ice and Fire WikiTests */,
+				07559528213836B800B69C78 /* Ice and Fire WikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07559505213836B700B69C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0755954221383FFA00B69C78 /* config.plist in Resources */,
+				07559518213836B800B69C78 /* LaunchScreen.storyboard in Resources */,
+				07559515213836B800B69C78 /* Assets.xcassets in Resources */,
+				07559510213836B700B69C78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0755951C213836B800B69C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07559527213836B800B69C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6924EAD7FB41DB6F25B2D9E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ice and Fire Wiki/Pods-Ice and Fire Wiki-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ice and Fire Wiki/Pods-Ice and Fire Wiki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C44E3EB258B4B7376A084E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ice and Fire Wiki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07559503213836B700B69C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0755954021383D8F00B69C78 /* Router.swift in Sources */,
+				0755954B2138501200B69C78 /* DataManager.swift in Sources */,
+				0755955221385A3000B69C78 /* HouseCell.swift in Sources */,
+				075595442138428C00B69C78 /* AppConfiguration.swift in Sources */,
+				0755950B213836B700B69C78 /* AppDelegate.swift in Sources */,
+				0755954D213852BB00B69C78 /* House.swift in Sources */,
+				0755953E21383CF700B69C78 /* MasterViewController.swift in Sources */,
+				07559554213862F000B69C78 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0755951A213836B800B69C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07559523213836B800B69C78 /* Ice_and_Fire_WikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07559525213836B800B69C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0755952E213836B800B69C78 /* Ice_and_Fire_WikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07559520213836B800B69C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07559506213836B700B69C78 /* Ice and Fire Wiki */;
+			targetProxy = 0755951F213836B800B69C78 /* PBXContainerItemProxy */;
+		};
+		0755952B213836B800B69C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07559506213836B700B69C78 /* Ice and Fire Wiki */;
+			targetProxy = 0755952A213836B800B69C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0755950E213836B700B69C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0755950F213836B700B69C78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07559516213836B800B69C78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07559517213836B800B69C78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07559530213836B800B69C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07559531213836B800B69C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07559533213836B800B69C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE778AE7807C67D9836781E8 /* Pods-Ice and Fire Wiki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire Wiki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07559534213836B800B69C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4067910C5C4FF0B7C3328F /* Pods-Ice and Fire Wiki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire Wiki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07559536213836B800B69C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire WikiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-WikiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice and Fire Wiki.app/Ice and Fire Wiki";
+			};
+			name = Debug;
+		};
+		07559537213836B800B69C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire WikiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-WikiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice and Fire Wiki.app/Ice and Fire Wiki";
+			};
+			name = Release;
+		};
+		07559539213836B800B69C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire WikiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-WikiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ice and Fire Wiki";
+			};
+			name = Debug;
+		};
+		0755953A213836B800B69C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V68384GJD;
+				INFOPLIST_FILE = "Ice and Fire WikiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mellowcobra.Ice-and-Fire-WikiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ice and Fire Wiki";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07559502213836B600B69C78 /* Build configuration list for PBXProject "Ice and Fire Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07559530213836B800B69C78 /* Debug */,
+				07559531213836B800B69C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07559532213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07559533213836B800B69C78 /* Debug */,
+				07559534213836B800B69C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07559535213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire WikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07559536213836B800B69C78 /* Debug */,
+				07559537213836B800B69C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07559538213836B800B69C78 /* Build configuration list for PBXNativeTarget "Ice and Fire WikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07559539213836B800B69C78 /* Debug */,
+				0755953A213836B800B69C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075594FF213836B600B69C78 /* Project object */;
+}
